@@ -6,7 +6,7 @@ import ActiveNav from "./ActiveNav";
 import DoorGroup from "./DoorGroup";
 import ThemeProfileConfig from "./ThemeProfileConfig";
 
-const NavMain = () => {
+const NavMain = ({ updateView }) => {
   return (
     <>
       <div className="navMainContainer">
@@ -15,7 +15,7 @@ const NavMain = () => {
           <EAGLLogo />
           <ActiveNav />
           <DoorGroup />
-          <ThemeProfileConfig />
+          <ThemeProfileConfig updateView={updateView} />
         </div>
       </div>
     </>

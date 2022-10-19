@@ -1,0 +1,25 @@
+.config-container h1 {
+  color: red;
+}
+.whole-container {
+  width: 100%;
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+.container1 {
+  width: 50%;
+  height: auto;
+  background-color: #343f4f;
+  color: white;
+}
+.globalSetting-container {
+  width: 50%;
+  height: auto;
+  background-color: #343f4f;
+  border-left: solid white 0.05rem;
+  font-size: 1.5rem;
+  color: white;
+  padding-top: 1.5rem;
+}
